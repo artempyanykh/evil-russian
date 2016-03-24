@@ -1,7 +1,7 @@
 # Evil Russian
 
 **The goal**: _make usual VIM actions (nagivation, changing modes, etc.) available
-for keyboard Russian layout_.
+for Russian keyboard layout_.
 
 I'm writing lots of TeX in Russian and being forced to constantly switch layouts
 to make any simple action really slows me down... and drives crazy. It doesn't

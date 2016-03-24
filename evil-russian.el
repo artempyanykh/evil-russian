@@ -129,7 +129,7 @@
   (define-key evil-operator-state-map "ф" evil-outer-text-objects-map)
   (define-key evil-operator-state-map "ш" evil-inner-text-objects-map))
 
-(defun ice/apply-latex-evil-russian-keymaps ()
+(defun evil-russian/set-evil-latex-mode-keys ()
   (dolist (mode '(tex-mode latex-mode))
     (spacemacs/set-leader-keys-for-major-mode mode
       "и"   'latex/build
