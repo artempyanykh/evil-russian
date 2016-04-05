@@ -1,0 +1,27 @@
+#+TITLE: evil-russian layer
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../css/readtheorg.css" />
+
+* Table of Contents                                        :TOC_4_org:noexport:
+ - [[Description][Description]]
+ - [[Install][Install]]
+
+* Description
+*The goal*: /make usual VIM actions (nagivation, changing modes, etc.) available
+for Russian keyboard layout/.
+
+I'm writing lots of TeX in Russian and being forced to constantly switch layouts
+to make any simple action really slows me down... and drives crazy. It doesn't
+really matter much whether I'm pressing "k" or "л" -- it's the same key on the
+keyboard.
+
+So, this is going to be a small spacemacs layer (or a standalone package, we'll
+see) that will make Evil talk Russian.
+
+* Install
+To use this contribution:
+1. clone the layer to your =~/.emacs.d/layers/private=,
+2. add it to your =~/.spacemacs=
+
+#+begin_src emacs-lisp
+  (setq-default dotspacemacs-configuration-layers '(evil-russian))
+#+end_src
