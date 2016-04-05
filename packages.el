@@ -122,6 +122,7 @@
   (define-key evil-motion-state-map "п;" 'evil-end-of-visual-line)
   (define-key evil-motion-state-map "Х" 'evil-backward-paragraph)
   (define-key evil-motion-state-map "Ъ" 'evil-forward-paragraph)
+  (define-key evil-motion-state-map (kbd "C-ц") 'evil-window-map)
   (define-key evil-motion-state-map (kbd "C-и") 'evil-scroll-page-up)
   (define-key evil-motion-state-map (kbd "C-в") 'evil-scroll-down)
   (define-key evil-motion-state-map (kbd "C-у") 'evil-scroll-line-down)
