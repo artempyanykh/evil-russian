@@ -95,7 +95,7 @@
   (define-key evil-motion-state-map "о" 'evil-next-line)
   (define-key evil-motion-state-map "л" 'evil-previous-line)
   (define-key evil-motion-state-map "0" 'evil-beginning-of-line)
-  (define-key evil-motion-state-map ";" 'evil-end-of-line)
+  (define-key evil-motion-state-map "п;" 'evil-end-of-line) ;; to not clash with regular ;
 
   (define-key evil-motion-state-map "д" 'evil-forward-char)
   (define-key evil-motion-state-map "Л" 'evil-lookup)
@@ -115,11 +115,9 @@
   (define-key evil-motion-state-map "по" 'evil-next-visual-line)
   (define-key evil-motion-state-map "пл" 'evil-previous-visual-line)
   (define-key evil-motion-state-map "п0" 'evil-beginning-of-visual-line)
-  (define-key evil-motion-state-map "п;" 'evil-end-of-line)
 
   (define-key evil-motion-state-map "п_" 'evil-last-non-blank)
   (define-key evil-motion-state-map "п:" 'evil-first-non-blank-of-visual-line)
-  (define-key evil-motion-state-map "п;" 'evil-end-of-visual-line)
   (define-key evil-motion-state-map "Х" 'evil-backward-paragraph)
   (define-key evil-motion-state-map "Ъ" 'evil-forward-paragraph)
   (define-key evil-motion-state-map (kbd "C-ц") 'evil-window-map)
