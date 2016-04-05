@@ -180,7 +180,8 @@
   ;; Ex-mode
   (define-key evil-normal-state-map (kbd evil-russian-command-key) 'evil-ex)
   (define-key evil-visual-state-map (kbd evil-russian-command-key) 'evil-ex)
-  (define-key evil-motion-state-map (kbd dotspacemacs-command-key) 'evil-ex)
+  (define-key evil-motion-state-map (kbd evil-russian-command-key) 'evil-ex)
+
   (evil-ex-define-cmd "у[edit]" 'evil-edit)
   (evil-ex-define-cmd "ц[rite]" 'evil-write)
   (evil-ex-define-cmd "цф[wall]" 'evil-write-all)
