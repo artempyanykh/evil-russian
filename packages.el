@@ -92,8 +92,8 @@
   (define-key evil-motion-state-map "р" 'evil-backward-char)
   (define-key evil-motion-state-map "Р" 'evil-window-top)
 
-  (define-key evil-motion-state-map "о" 'evil-next-line)
-  (define-key evil-motion-state-map "л" 'evil-previous-line)
+  (define-key evil-motion-state-map "о" 'evil-next-visual-line)
+  (define-key evil-motion-state-map "л" 'evil-previous-visual-line)
   (define-key evil-motion-state-map "0" 'evil-beginning-of-line)
   (define-key evil-motion-state-map "п;" 'evil-end-of-line) ;; to not clash with regular ;
 
